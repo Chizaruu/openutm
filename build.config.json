@@ -1,0 +1,15 @@
+{
+	"appId": "com.tsk.openutm",
+	"productName": "OpenUTM",
+	"directories": {
+		"output": "dist"
+	},
+	"files": [
+		"src/electron.cjs",
+		"src/preload.cjs",
+		{
+			"from": "build",
+			"to": ""
+		}
+	]
+}
